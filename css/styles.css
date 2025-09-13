@@ -469,7 +469,7 @@ p {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
-  align-items: flex-start;
+ align-items: baseline;
 }
 
 /* Лівий блок */
@@ -484,8 +484,8 @@ p {
   text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
-   margin-bottom: 16px;
   color: #ffffff;
+  margin-bottom: 16px;
   display: inline-block;
    font-family: 'Raleway', sans-serif;
 }
