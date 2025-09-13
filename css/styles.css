@@ -469,8 +469,7 @@ p {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
- align-items: baseline;
-
+  align-items: baseline;
 }
 
 /* Лівий блок */
@@ -488,24 +487,23 @@ p {
   color: #ffffff;
   margin-bottom: 16px;
   display: inline-block;
-   font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer-span {
   color: #4d5ae5;
 }
 
-.footer-text {
+p.footer-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e4e4e4;
   font-family: 'Roboto', sans-serif;
-   margin-bottom: 16px;
-}
+  margin-bottom: 16px; }
 
-/*  Правий блок  */
+/* Правий блок */
 .footer-social {
   display: flex;
   flex-direction: column; 
@@ -518,9 +516,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 16px; 
-  margin-bottom: calc(16px - 8px); 
 }
-
 
 .social-list {
   display: flex;
@@ -541,13 +537,10 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover {
-  background-color: #31d0aa; 
-}
+.social-link:hover,
 .social-link:focus { 
   background-color: #31d0aa; 
 }
-
 
 .social-icon {
   width: 24px;
@@ -556,11 +549,9 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .social-link:hover .social-icon {
   transform: scale(1.2);
 }
-
 
 /* ===== VISUALLY HIDDEN ====== */
 .visually-hidden {
@@ -574,3 +565,4 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
