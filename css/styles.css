@@ -494,14 +494,17 @@ p {
   color: #4d5ae5;
 }
 
-p.footer-text {
+.footer-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
- margin-bottom: 16px;
 color: #e4e4e4;
 font-family: 'Roboto', sans-serif; 
+}
+
+p.footer-text {
+  margin-bottom: 16px;
 }
 
 
