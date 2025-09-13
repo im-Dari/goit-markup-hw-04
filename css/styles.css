@@ -470,6 +470,7 @@ p {
   padding: 0 15px;
   display: flex;
  align-items: baseline;
+
 }
 
 /* Лівий блок */
@@ -494,17 +495,15 @@ p {
   color: #4d5ae5;
 }
 
-p.footer-text {
+.footer-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e4e4e4;
-  font-family: 'Roboto', sans-serif; 
-  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+   margin-bottom: 16px;
 }
-
-
 
 /*  Правий блок  */
 .footer-social {
@@ -518,7 +517,10 @@ p.footer-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  margin-bottom: 16px; 
+  margin-bottom: calc(16px - 8px); 
 }
+
 
 .social-list {
   display: flex;
